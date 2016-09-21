@@ -1,0 +1,10 @@
+<?php
+include('init.php');
+if(!isLoggedIn()){
+	include("header.php");
+	include("navbar.php");
+	include("welcome.php");
+	include("footer.php");
+}else{
+	header("Location:home.php");
+}
