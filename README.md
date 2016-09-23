@@ -1,2 +1,1 @@
-# redisboard
-redis留言
+git 学习测试 不做代码的搬运工
